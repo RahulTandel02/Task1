@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  max-width: 60%;
+  margin: 0 auto;
+  font-family: "Poppins";
+  padding-bottom: 50px;
+}
+.header {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 45px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+h1 {
+  color: blue;
+}
+p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.radio {
+  display: flex;
+  padding: 20px;
+}
+.radioTxt {
+  margin-right: 25px;
+  margin-left: 5px;
+}
+.plusBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plusBtn button {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  background-color: aqua;
+  border-radius: 80px;
+  border: none;
+  padding: 5px;
+}
+.dBtn {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: coral;
+  color: white;
+  font-weight: bolder;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
